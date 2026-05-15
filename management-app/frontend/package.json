@@ -1,0 +1,32 @@
+{
+  "name": "management-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "axios": "^1.6.2",
+    "socket.io-client": "^4.7.4",
+    "recharts": "^2.8.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "@headlessui/react": "^1.7.18",
+    "lucide-react": "^0.294.0",
+    "react-hook-form": "^7.47.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "t 'tailwind.config.js' 'postcss.config.js' 'vite.config.js' 'src/index.css'",
+    "preview": "vite preview"
+  }
+}
+
